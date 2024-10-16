@@ -1,0 +1,29 @@
+.large-number {
+    font-size: 38px;
+    font-weight: bold;
+  }
+
+
+/* CSS styling for the number line and layout */
+.chart-container {
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
+    flex-grow:1;
+}
+
+.axis line {
+    stroke: black;
+}
+
+.axis path {
+    stroke: black;
+}
+
+.triangle {
+    stroke: black;
+    stroke-width: 1px;
+    fill-opacity: 1;
+    stroke: none;
+}
